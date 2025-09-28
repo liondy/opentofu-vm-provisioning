@@ -1,0 +1,17 @@
+# General
+.DS_Store
+*.log
+
+# Terraform / OpenTofu
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+*.tfvars
+*.tfvars.json
+
+# Generated credentials
+*.pem
+*.key.json
